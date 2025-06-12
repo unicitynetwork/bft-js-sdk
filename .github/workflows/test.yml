@@ -24,10 +24,10 @@ jobs:
       - name: Run tests
         run: npm run test:ci
 
-      - name: Run Alphabill using Docker Compose
-        run: npm run docker:alphabill
+      - name: Run UBFT using Docker Compose
+        run: npm run docker:ubft
 
-      - name: Wait for Alphabill nodes to sync up
+      - name: Wait for UBFT nodes to sync up
         run: sleep 5
 
       - name: Run integration tests
