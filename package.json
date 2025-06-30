@@ -2,7 +2,7 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "name": "@unicitynetwork/bft-js-sdk",
+  "name": "@unicitylabs/bft-js-sdk",
   "version": "1.0.1",
   "type": "module",
   "exports": {
